@@ -1,0 +1,104 @@
+a.qbutton.white.large 
+{
+	background: #ffffff;
+	color: #0cb3bd;
+	border-color: #ffffff;
+}
+
+a.qbutton.white.large:hover
+{
+	background: #0cb3bd;
+	color: #ffffff;
+}
+
+/*
+sales temp*/
+
+@media screen and (max-width:767px) {
+  .row-sales-small  {
+    display:none;
+  }
+  .row-sales-medium {
+    display: none;
+  }
+  .row-sales-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .row-sales-extra-small {
+      display:none;
+    }
+    .row-sales-medium  {
+        display:none;
+      }
+    .row-sales-large {
+        display:none;
+    }
+  }
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .row-sales-extra-small  {
+      display:none;
+    }
+    .row-sales-small {
+        display:none;
+      }
+    .row-sales-large {
+        display:none;
+      }
+  }
+
+@media screen and (min-width:1200px) {
+    .row-sales-extra-small  {
+      display:none;
+    }
+     .row-sales-small {
+        display:none;
+      }
+    .row-sales-medium {
+        display:none;
+      }
+  }
+
+/*
+home inicio & sobre mi
+*/
+
+@media only screen and (max-width: 1399px) {
+  div#hola_bigDesktops {
+    display: none;
+  }
+  div#soyElena_bigDesktops_sobreMi {
+    display: none;
+  }
+  div#miTiempo_bigDesktops_sobreMi {
+    display: none;
+  }
+  div#nadieNace_bigDesktops_sobreMi {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  div#hola_mobile_smallDesktops {
+    display: none;
+  }
+ div#soyElena_mobile_smallDesktops_sobreMi {
+    display: none;
+  }
+ div#miTiempo_mobile_smallDesktops_sobreMi {
+    display: none;
+  }
+ div#nadieNace_mobile_smallDesktops_sobreMi {
+    display: none;
+  }
+}
+
+/* sales */
+
+.unete-sales p {
+    font-size: 22px;
+    color: black;
+}
