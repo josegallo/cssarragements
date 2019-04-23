@@ -13,6 +13,7 @@ a.qbutton.white.large:hover
 
 /*
 sales temp*/
+    /* extra-small */
 
 @media screen and (max-width:767px) {
   .row-sales-small  {
@@ -25,7 +26,7 @@ sales temp*/
     display: none;
   }
 }
-
+    /* small */
 @media screen and (min-width:768px) and (max-width:991px) {
     .row-sales-extra-small {
       display:none;
@@ -37,8 +38,8 @@ sales temp*/
         display:none;
     }
   }
-
-@media screen and (min-width:992px) and (max-width:1199px) {
+    /* medium */
+@media screen and (min-width:992px) and (max-width:1399px) {
     .row-sales-extra-small  {
       display:none;
     }
@@ -49,8 +50,8 @@ sales temp*/
         display:none;
       }
   }
-
-@media screen and (min-width:1200px) {
+    /* large */
+@media screen and (min-width:1400px) {
     .row-sales-extra-small  {
       display:none;
     }
@@ -61,6 +62,10 @@ sales temp*/
         display:none;
       }
   }
+#medium-hola {
+    background-size: 100%;
+}
+
 
 /*
 home inicio & sobre mi
