@@ -12,19 +12,26 @@ a.qbutton.white.large:hover
 }
 
 /*
-sales temp*/
+sales*/
     /* extra-small */
 
+
+.unete-sales p {
+    font-size: 22px;
+    color: black;
+}
+
+
 @media screen and (max-width:767px) {
-  .row-sales-small  {
+    .row-sales-small  {
     display:none;
-  }
-  .row-sales-medium {
+    }
+    .row-sales-medium {
     display: none;
-  }
-  .row-sales-large {
+    }
+     .row-sales-large {
     display: none;
-  }
+    }
 }
     /* small */
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -45,10 +52,10 @@ sales temp*/
     }
     .row-sales-small {
         display:none;
-      }
+    }
     .row-sales-large {
         display:none;
-      }
+    }
   }
     /* large */
 @media screen and (min-width:1400px) {
@@ -57,15 +64,53 @@ sales temp*/
     }
      .row-sales-small {
         display:none;
-      }
+    }
     .row-sales-medium {
         display:none;
-      }
+    }
   }
-#medium-hola {
+
+/* maximize background images */
+#small-hola {
     background-size: 100%;
 }
 
+#medium-hola  {
+    background-size: 100%;
+}
+
+#large-hola {
+    background-size: 100%;
+}
+
+#small-mi-promesa {
+    background-size: 100%;
+}
+
+#medium-mi-promesa {
+    background-size: 100%;
+}
+
+#large-mi-promesa {
+    background-size: 100%;
+}
+
+div#small-donde-aprenderas
+{
+    background-size: 100%;
+}
+
+div#medium-donde-aprenderas
+{
+    background-size: 100%;
+    background-position: inherit;
+}
+
+div#large-donde-aprenderas
+{
+    background-size: 100%;
+    background-position: inherit;
+}
 
 /*
 home inicio & sobre mi
@@ -101,9 +146,3 @@ home inicio & sobre mi
   }
 }
 
-/* sales */
-
-.unete-sales p {
-    font-size: 22px;
-    color: black;
-}
