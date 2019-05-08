@@ -1,0 +1,278 @@
+/* color white and size for tiltle on descarga gratis section */
+
+#title-descarga-gratis h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large {
+    color: white;
+    font-size: 28px;
+}
+
+#es-el-momento h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large{
+    font-size: 28px;
+}
+
+/* delete botton of and little icon search on menu */
+span.gdlr-menu-search-button-sep{
+    display:none;
+}
+
+i#gdlr-menu-search-button {
+    display:none;
+}
+    
+/* color blue the tabs tags     */
+.tab-title-wrapper .tab-title  {
+    background-color: #00b9c0;
+}
+
+h4.tab-title.active span h3.tab-elena {
+    color: black !important;
+}
+
+h3.tab-elena {
+    color: white;
+    font-size: 19px!important;
+}
+
+  
+/* delete button and price on ticket table */
+
+.gdlr-ticket-item .gdlr-ticket-button {
+    display:none;
+}
+    
+
+.gdlr-ticket-head-price {
+    display:none;
+}
+
+/* color white for tiltle on descarga gratis section */
+
+#title-descarga-gratis h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large {
+    color: white;
+}
+
+/* delete botton of and little icon search on menu */
+span.gdlr-menu-search-button-sep{
+    display:none;
+}
+
+i#gdlr-menu-search-button {
+    display:none;
+}
+    
+/* color blue the tabs tags and white for actives     */
+.tab-title-wrapper .tab-title  {
+    background-color: #00b9c0 !important;
+}
+
+h4.tab-title.active {
+    background-color: #ffffff !important;   
+}
+/* color white for tiltle on descarga gratis section */
+
+#title-descarga-gratis h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large {
+    color: white;
+}
+
+/* delete botton of and little icon search on menu */
+span.gdlr-menu-search-button-sep{
+    display:none;
+}
+
+i#gdlr-menu-search-button {
+    display:none;
+}
+
+/* delete button and price on ticket table */
+
+.gdlr-ticket-item .gdlr-ticket-button {
+    display:none;
+}
+
+.gdlr-ticket-head-price {
+    display:none;
+}
+
+/* color white for tiltle on descarga gratis section */
+
+#title-descarga-gratis h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large,
+#desktop-title-descarga-gratis- h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large{
+    color: white;
+}
+
+/* delete botton of and little icon search on menu */
+span.gdlr-menu-search-button-sep{
+    display:none;
+}
+
+i#gdlr-menu-search-button {
+    display:none;
+}
+    
+/* delete button and price on ticket table */
+
+.gdlr-ticket-item .gdlr-ticket-button {
+    display:none;
+}
+
+.gdlr-ticket-head-price {
+    display:none;
+}
+    
+/* testimonials name and arrow icons color */
+
+span.testimonial-author.gdlr-skin-link-color{
+    color: #00b9c0;
+}
+
+i.icon-angle-left.gdlr-flex-prev, i.icon-angle-right.gdlr-flex-next{
+    background: #00b9c0;
+}
+
+/* customize fonts header and titles */
+
+h1, h2 {
+    font-family: "Droid Serif" !important;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large{
+    font-size: 40px;
+}
+
+/* delete button and price on ticket table */
+.gdlr-ticket-item .gdlr-ticket-button {
+    display:none;
+}
+    
+
+.gdlr-ticket-head-price {
+    display:none;
+}
+
+/* testimonials name and arrow icons color */
+
+span.testimonial-author.gdlr-skin-link-color{
+color: #00b9c0;
+}
+
+i.icon-angle-left.gdlr-flex-prev, i.icon-angle-right.gdlr-flex-next{
+    background: #00b9c0;
+}
+
+/* customize fonts header and titles */
+
+h1, h2 {
+    font-family: "Droid Serif" !important;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h3.gdlr-item-title.gdlr-skin-title.gdlr-skin-border.gdlr-title-large{
+    font-size: 36px;
+}
+
+/* responsive sections */
+/* full size for main images */
+
+div#mobile-es-el-momento-image, div#ipad-es-el-momento, div#medium-es-el-momento, 
+div#desktop-es-el-momento{
+    background-size: cover;
+}
+
+div#section-descarga-gratis, div#desktop-section-descarga-gratis{
+    background-size: cover;
+}
+div#mobile-listo-para-aprender-image, div#ipad-listo-para-aprender-image, 
+div#medium-listo-para-aprender, div#desktop-listo-para-aprender{
+    background-size: cover;
+}
+
+div#mobile-sobre-elena-image, 
+div#ipad-sobre-elena-image, div#ipad-sobre-elena-text, 
+div#medium-sobre-elena, 
+div#desktop-sobre-elena{
+    background-size: cover;
+}
+
+/* mobile */
+@media screen and (max-width:767px) {
+    div#medium-es-el-momento, div#ipad-es-el-momento, div#desktop-es-el-momento {
+        display:none;
+    }
+    div#desktop-section-descarga-gratis {
+        display:none;
+    }
+    div#ipad-listo-para-aprender-image, div#ipad-listo-para-aprender-text, 
+    div#medium-listo-para-aprender, div#desktop-listo-para-aprender{
+        display:none;
+    }
+    div#ipad-sobre-elena-image, div#ipad-sobre-elena-text, 
+    div#medium-sobre-elena, div#desktop-sobre-elena{
+        display:none;
+    }
+    .gdlr-logo{
+        padding: 0px 0px 0px 0px!important;
+    }
+}
+/* ipad */
+@media screen and (min-width:768px) and (max-width:991px) {
+    div#mobile-es-el-momento-image, div#mobile-es-el-momento-text, div#medium-es-el-momento,
+    div#desktop-es-el-momento  {
+        display:none;
+    }
+    div#desktop-section-descarga-gratis {
+        display:none;
+    }
+    div#mobile-listo-para-aprender-image, div#mobile-listo-para-aprender-text, 
+    div#medium-listo-para-aprender, div#desktop-listo-para-aprender{
+        display:none;
+    }
+    div#mobile-sobre-elena-image, div#mobile-sobre-elena-text, 
+    div#medium-sobre-elena, div#desktop-sobre-elena{
+        display:none;
+    }
+    .gdlr-logo{
+        padding: 0px 0px 0px 0px!important;
+    }
+  }
+/* laptop */
+@media screen and (min-width:992px) and (max-width:1800px) {
+    div#mobile-es-el-momento-image, div#mobile-es-el-momento-text, div#ipad-es-el-momento,
+    div#desktop-es-el-momento {
+        display:none;
+    }
+    div#desktop-section-descarga-gratis {
+        display:none;
+    }
+    div#mobile-listo-para-aprender-image, div#mobile-listo-para-aprender-text,
+    div#ipad-listo-para-aprender-image, div#ipad-listo-para-aprender-text, 
+    div#desktop-listo-para-aprender {
+        display:none;
+    }
+    div#mobile-sobre-elena-image, div#mobile-sobre-elena-text,
+    div#ipad-sobre-elena-image, div#ipad-sobre-elena-text, 
+    div#desktop-sobre-elena {
+        display:none;
+    }
+  }
+/* desktop */
+@media screen and (min-width:1801px) {
+    div#mobile-es-el-momento-image, div#mobile-es-el-momento-text, div#ipad-es-el-momento, 
+    div#medium-es-el-momento {
+        display:none;
+    }
+    div#section-descarga-gratis {
+        display:none;
+    }
+    div#mobile-listo-para-aprender-image, div#mobile-listo-para-aprender-text, 
+    div#ipad-listo-para-aprender-image, div#ipad-listo-para-aprender-text, 
+    div#medium-listo-para-aprender {
+        display:none;
+    }
+    div#mobile-sobre-elena-image, div#mobile-sobre-elena-text, 
+    div#ipad-sobre-elena-image, div#ipad-sobre-elena-text, 
+    div#medium-sobre-elena {
+        display:none;
+    }
+  }
