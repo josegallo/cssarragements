@@ -1,14 +1,14 @@
 a.qbutton.white.large 
 {
-	background: #ffffff;
-	color: #0cb3bd;
-	border-color: #ffffff;
+  background: #ffffff;
+  color: #0cb3bd;
+  border-color: #ffffff;
 }
 
 a.qbutton.white.large:hover
 {
-	background: #0cb3bd;
-	color: #ffffff;
+  background: #0cb3bd;
+  color: #ffffff;
 }
 
 /*
@@ -31,6 +31,9 @@ sales*/
     }
      .row-sales-large {
     display: none;
+    }
+    .image_with_text img{
+      margin: auto;
     }
 }
     /* small */
@@ -71,6 +74,7 @@ sales*/
   }
 
 /* maximize background images */
+
 #small-hola {
     background-size: 100%;
 }
@@ -131,6 +135,20 @@ home inicio & sobre mi
   }
 }
 
+div#hola_bigDesktops {
+    background-size: 100%;
+  }
+div#soyElena_bigDesktops_sobreMi {
+    background-size: 100%;
+  }
+div#miTiempo_bigDesktops_sobreMi {
+    background-size: 100%;
+  }
+div#nadieNace_bigDesktops_sobreMi {
+    background-size: 100%;
+  }
+
+
 @media only screen and (min-width: 1400px) {
   div#hola_mobile_smallDesktops {
     display: none;
@@ -146,3 +164,20 @@ home inicio & sobre mi
   }
 }
 
+  div#hola_mobile_smallDesktops {
+    background-size: 100%;
+  }
+ div#soyElena_mobile_smallDesktops_sobreMi {
+    background-size: 100%;
+  }
+ div#miTiempo_mobile_smallDesktops_sobreMi {
+    background-size: 100%;
+  }
+ div#nadieNace_mobile_smallDesktops_sobreMi {
+    background-size: 100%;
+  }
+
+/*encuentra tu trabajo premium*/
+.image_with_text img {
+      margin: auto;
+}
